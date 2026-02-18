@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Set your S3 bucket and file name
-S3_BUCKET = os.environ.get('S3_BUCKET', 'kuberocketci-applications-data)
+S3_BUCKET = os.environ.get('S3_BUCKET', 'kuberocketci-applications-data')
 S3_KEY = 'cmtr-74cudwfj/data.txt'
 AWS_REGION = os.environ.get('AWS_REGION', 'eu-central-1')  # Change if needed
 
